@@ -5,8 +5,9 @@ import { Html } from "@react-three/drei"
 import { TextureLoader, LinearFilter } from "three"
 import lerp from "lerp"
 import { Text, MultilineText } from "./components/Text"
-import Diamonds from "./diamonds/Diamonds"
+// import Diamonds from "./diamonds/Diamonds"
 import Plane from "./components/Plane"
+
 import { Block, useBlock } from "./blocks"
 import state from "./store"
 import "./styles.css"
@@ -57,6 +58,9 @@ function Content() {
     <>
       <Block factor={1} offset={0}>
         <Block factor={1.2}>
+          <Text left size={w * 0.100} position={[-w / 3.2, 1.6, -1]} color="#d40749">
+            THE
+          </Text>
           <Text left size={w * 0.100} position={[-w / 3.2, 0.5, -1]} color="#d40749">
             CATALYST
           </Text>
