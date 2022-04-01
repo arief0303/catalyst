@@ -2,7 +2,7 @@ import { createRef } from "react"
 import { Vector3 } from "three"
 
 const state = {
-  sections: 8,
+  sections: 7,
   pages: 7,
   zoom: 75,
   paragraphs: [
@@ -50,7 +50,7 @@ const state = {
       text:
         "By cultivating the state of mind that makes it possible for the dazzling ecstatic insights to become permanent and habitual illuminations. By getting to know oneself to the point where one won’t be compelled by one’s unconscious to do all the ugly, absurd, self-stultifying things that one so often finds oneself doing."
     },
-    { offset: 7, factor: 1.05, header: "The Factory", image: "/photo-1548191265-cc70d3d45ba1.jpeg", aspect: 1.77, text: "Education and enlightenment." }
+    { offset: 6, factor: 1.05, header: "The Factory", image: "/photo-1548191265-cc70d3d45ba1.jpeg", aspect: 1.77, text: "Education and enlightenment." }
   ],
   stripes: [
     { offset: 0, color: "#000", height: 13 },
