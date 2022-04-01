@@ -2,8 +2,8 @@ import { createRef } from "react"
 import { Vector3 } from "three"
 
 const state = {
-  sections: 9,
-  pages: 8,
+  sections: 8,
+  pages: 7,
   zoom: 75,
   paragraphs: [
     {

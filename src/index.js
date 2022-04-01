@@ -78,11 +78,11 @@ function Content() {
           <Plane args={[50, height, 32, 32]} shift={-4} color={color} rotation={[0, 0, Math.PI / 8]} position={[0, 0, -10]} />
         </Block>
       ))}
-      <Block factor={1.25} offset={8}>
+      {/* <Block factor={1.25} offset={8}>
         <Html style={{ color: "white" }} className="bottom-left" position={[-canvasWidth / 2, -canvasHeight / 2, 0]}>
           Culture is not your friend.
         </Html>
-      </Block>
+      </Block> */}
     </>
   )
 }
